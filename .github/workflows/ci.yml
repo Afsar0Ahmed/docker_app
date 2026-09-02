@@ -37,4 +37,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/Docker_app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker_app:latest
